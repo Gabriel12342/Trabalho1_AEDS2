@@ -1,0 +1,26 @@
+digraph KDTree {
+  labelloc="t";
+  fontsize=16;
+  label="KD-Tree (k=2) -- exemplo pequeno, 10 pontos";
+  node [shape=box, style=filled, fillcolor="#eaf2ff", fontname="Helvetica", fontsize=11];
+  edge [fontname="Helvetica", fontsize=10];
+  n0 [label="(30, 40)\neixo 0"];
+  n0 -> n1 [label="<"];
+  n1 [label="(5, 25)\neixo 1"];
+  n1 -> n2 [label="<"];
+  n2 [label="(10, 12)\neixo 0"];
+  n1 -> n3 [label=">="];
+  n3 [label="(22, 90)\neixo 0"];
+  n0 -> n4 [label=">="];
+  n4 [label="(70, 70)\neixo 1"];
+  n4 -> n5 [label="<"];
+  n5 [label="(50, 30)\neixo 0"];
+  n5 -> n6 [label="<"];
+  n6 [label="(35, 45)\neixo 1"];
+  n5 -> n7 [label=">="];
+  n7 [label="(68, 20)\neixo 1"];
+  n7 -> n8 [label="<"];
+  n8 [label="(80, 10)\neixo 0"];
+  n7 -> n9 [label=">="];
+  n9 [label="(55, 60)\neixo 0"];
+}

@@ -1,0 +1,33 @@
+// Arvore Patricia -- gerado automaticamente
+digraph PatriciaTree {
+    label="Patricia - ANTES de remover \"carro\"\n(circulo duplo laranja = fim de palavra; rotulo da aresta = trecho compactado)";
+    labelloc=t;
+    node [shape=circle, style=filled, fillcolor="#e0e0e0", fixedsize=true, width=0.4];
+    n0 [label=""];
+    n1 [label=""];
+    n2 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n1 -> n2 [label="chorro"];
+    n3 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n1 -> n3 [label="derno"];
+    n4 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n5 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n4 -> n5 [label="ca"];
+    n1 -> n4 [label="rro"];
+    n6 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n7 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n6 -> n7 [label="co"];
+    n1 -> n6 [label="sa"];
+    n0 -> n1 [label="ca"];
+    n8 [label=""];
+    n9 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n8 -> n9 [label="ado"];
+    n10 [label=""];
+    n11 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n10 -> n11 [label="al"];
+    n12 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n13 [label="", shape=doublecircle, fillcolor="#ffd699"];
+    n12 -> n13 [label="ista"];
+    n10 -> n12 [label="o"];
+    n8 -> n10 [label="ed"];
+    n0 -> n8 [label="d"];
+}

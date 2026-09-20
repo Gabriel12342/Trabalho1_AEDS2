@@ -1,0 +1,25 @@
+// Arvore Treap -- gerado automaticamente
+digraph TreapTree {
+    label="Treap - ANTES de remover a chave 40";
+    labelloc=t;
+    node [shape=circle, style=filled, fillcolor="#d7f5d0"];
+    n0 [label="70\n(p=951)"];
+    n1 [label="30\n(p=797)"];
+    n2 [label="10\n(p=597)"];
+    n3 [label="20\n(p=184)"];
+    n2 -> n3 [label="D"];
+    n1 -> n2 [label="E"];
+    n4 [label="60\n(p=780)"];
+    n5 [label="40\n(p=732)"];
+    n6 [label="35\n(p=446)"];
+    n5 -> n6 [label="E"];
+    n7 [label="50\n(p=375)"];
+    n5 -> n7 [label="D"];
+    n4 -> n5 [label="E"];
+    n1 -> n4 [label="D"];
+    n0 -> n1 [label="E"];
+    n8 [label="80\n(p=599)"];
+    n9 [label="90\n(p=157)"];
+    n8 -> n9 [label="D"];
+    n0 -> n8 [label="D"];
+}

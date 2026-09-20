@@ -1,0 +1,11 @@
+===== Palavras armazenadas na Patricia de exemplo (9) =====
+
+cachorro
+caderno
+carroca
+casa
+casaco
+dado
+dedal
+dedo
+dedoista
